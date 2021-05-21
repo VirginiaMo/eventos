@@ -1,0 +1,41 @@
+#container{
+    background-color: white;
+    display: grid;
+  grid-template-columns:1fr,1fr;
+  grid-template-rows: 1fr,1fr;
+  grid-template-areas: 
+  "boton boton"
+  "h1 h1"
+  "img p";
+}
+.titulo{
+    grid-area: h1;
+    padding-left: 250px;
+}
+#image{
+    grid-area: img;
+    height: 300px;
+    width: 400px;
+}
+.text{
+    grid-area: p;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+}
+#modoLectura{
+    width: 100px;
+    height: 50px;
+    background-color: blue;
+    color:black;
+    font-weight: bold;
+    margin-left: 200px;
+}
+#modoNormal{
+    width: 100px;
+    height: 50px;
+    background-color: green;
+    color:black;
+    font-weight: bold;
+    margin-left: 200px;
+}
